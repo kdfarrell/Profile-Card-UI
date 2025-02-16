@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 375px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Name and Location */
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.location {
+    color: #c5f82a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    margin: 15px 0;
+    opacity: 0.8;
+}
+
+/* Buttons */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c5f82a;
+    color: hsl(0, 0%, 8%);
+}
